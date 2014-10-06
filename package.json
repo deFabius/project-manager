@@ -17,7 +17,7 @@
   "scripts": {
     "postinstall": "bower install && grunt",
 
-    "prestart": "npm install",
+    "prestart": "grunt",
     "start": "http-server -p 8080"
 	}
 }

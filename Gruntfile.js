@@ -10,11 +10,16 @@ module.exports = function(grunt) {
         banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
           '<%= grunt.template.today("yyyy-mm-dd") %> */',
       },
-      dist: {
+      bundle_js: {
         src: ['bower_components/jquery/dist/jquery.min.js',
-        'bower_components/bootstrap/dist/js/boostrap.min.js'],
-        dest: 'dist/libraries.js',
+        'bower_components/bootstrap/dist/js/boostrap.min.js',
+        'bower_components/angular/angular.min.js'],
+        dest: 'dist/js/bundle.js',
       },
+      bundle_css: {
+        src: ['bower_components/bootstrap/dist/css/boostrap.min.css'],
+        dest: 'dist/css/bundle.css',
+      }
     }
   });
 
