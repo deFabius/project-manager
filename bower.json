@@ -1,0 +1,12 @@
+{
+  "name": "Project Manager",
+  "version": "0.0.0",
+  "authors": [
+    "Fabio Valle <fabio.valle@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.2.0"
+  }
+}
