@@ -12,12 +12,11 @@ module.exports = function(grunt) {
       },
       bundle_js: {
         src: ['bower_components/jquery/dist/jquery.min.js',
-        'bower_components/bootstrap/dist/js/boostrap.min.js',
-        'bower_components/angular/angular.min.js'],
+        'bower_components/bootstrap/dist/js/bootstrap.min.js'],
         dest: 'dist/js/bundle.js',
       },
       bundle_css: {
-        src: ['bower_components/bootstrap/dist/css/boostrap.min.css'],
+        src: ['bower_components/bootstrap/dist/css/bootstrap.min.css'],
         dest: 'dist/css/bundle.css',
       }
     }
